@@ -1,0 +1,234 @@
+html,body{
+    margin:0;
+    padding:0;
+}
+
+/* fff1e5*/
+body{
+    background-color: #ffffff;
+    margin: 0px;
+}
+
+.banner {
+    background-color: #113ea8;
+    color: white;
+    text-align: left;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    margin-top: 0%;
+}
+
+.banner h1 {
+    font-size: 23px;
+    margin: 0;
+}
+
+.banner-link {
+    display: block; /* Makes the entire banner clickable */
+    color: white; /* Keeps the text color white */
+    text-decoration: none; /* Removes underline from text */
+}
+
+.banner-link:hover {
+    background-color: #000000; /* Adds a darker shade when hovering over the link */
+}
+
+
+.title{
+    text-align: center; 
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    
+}
+
+.links{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    
+}
+img{
+
+   
+    width: 100%;
+    max-width: 580px;
+    height: auto;
+    
+    display: block;
+    margin: 0 auto;
+
+}
+
+
+figcaption{
+    font-style: italic;
+    margin-top: 0px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+
+.month{
+    border: 2px solid #000; /* 2px solid black border */
+    padding: 13px; /* 20px padding inside the box */
+    margin: 20px; /* 20px margin outside the box */
+    text-align: center;
+    background-color: #005bbb;
+    color: white;
+    
+
+}
+
+.summer {
+    border: 2px solid #000; /* 2px solid black border */
+    padding: 13px; /* 20px padding inside the box */
+    margin: 20px; /* 20px margin outside the box */
+    text-align: center;
+    background-color: #002f56;
+    color: white;
+
+}
+
+.year{
+    border: 2px solid #000; /* 2px solid black border */
+    padding: 13px; /* 20px padding inside the box */
+    margin: 20px; /* 20px margin outside the box */
+    text-align: center;
+    background-color: #021d3b;
+    color: white;
+
+
+}
+
+.about_intro{
+    border: 2px solid #000; /* 2px solid black border */
+    padding: 13px; /* 20px padding inside the box */
+    margin: 20px; /* 20px margin outside the box */
+    text-align: center;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+.fast_facts{
+    border: 2px solid #000; /* 2px solid black border */
+    padding: 13px; /* 20px padding inside the box */
+    margin: 20px; /* 20px margin outside the box */
+    text-align: center;
+    background-color: #021d3b;
+    color: white;
+}
+
+
+
+
+
+  /* Header/Blog Title */
+  .header {
+    padding: 1px;
+    font-size: 40px;
+    text-align: center;
+    background: #fff1e5;
+  }
+  
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+  .leftcolumn {   
+    float: left;
+    width: 75%;
+    text-align: center;
+    margin-left: 10%;
+    
+  }
+  
+
+  
+  /* Fake image */
+  .fakeimg {
+    background-color: #aaa;
+    width: 50%;
+    padding: 30px;
+    margin-left: 20%
+    
+  }
+
+
+
+  
+  /* Add a card effect for articles */
+  .card {
+     background-color: #f2dfce;
+     padding: 20px;
+     margin-top: 20px;
+   
+     
+  
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Footer */
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+  }
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }
+
+
+
+
+
+
+
+
+/* Style for the anchor tag to make it behave like a block */
+.clickable-div {
+    display: block;
+    text-decoration: none;
+}
+
+/* Style for the text color change on hover */
+.hover-text {
+    color: rgb(38, 37, 37); /* Initial color */
+    transition: color 0.3s ease; /* Optional transition effect */
+}
+
+/* Change color on hover */
+.clickable-div:hover .hover-text {
+    color: rgb(86, 86, 86); /* Color when hovered */
+}
+
+
+.blog_body{
+    max-width: 700px; /* Change this to the maximum width you want for your content */
+    margin: 0 auto;   /* This centers the content */
+    padding: 20px;
+    line-height: 1.8;
+    text-align: left;
+}
+
+.centered-pdf {
+    text-align: center; /* Center inline and inline-block elements horizontally */
+    margin: 0 auto;     /* Center block elements horizontally */
+
+}
+
+
+
+
