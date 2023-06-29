@@ -1,3 +1,13 @@
+
+
+
+
+@font-face {
+    font-family: 'DejaVu Serif';
+    src: url('/media/sumanyujanapareddy/Samsung USB/[GIT] Personal Website/DejaVuSerif-BoldItalic.ttf') format('truetype');
+}
+
+
 html,body{
     margin:0;
     padding:0;
@@ -7,45 +17,31 @@ html,body{
 body{
     background-color: #ffffff;
     margin: 0px;
-}
-
-.banner {
-    background-color: #113ea8;
-    color: white;
-    text-align: left;
-    padding: 10px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0;
-    margin-top: 0%;
-}
-
-.banner h1 {
-    font-size: 23px;
-    margin: 0;
-}
-
-.banner-link {
-    display: block; /* Makes the entire banner clickable */
-    color: white; /* Keeps the text color white */
-    text-decoration: none; /* Removes underline from text */
-}
-
-.banner-link:hover {
-    background-color: #000000; /* Adds a darker shade when hovering over the link */
+    font-family: 'DejaVu Serif', serif;
 }
 
 
-.title{
-    text-align: center; 
-    margin-top: 10px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+
+.epic{
+    
+    text-align: center;
+    font-family: 'DejaVu Serif', serif;
+    font-size: 43px;
+    text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.15);
+   
+    
+    
+   
+    
 
     
 }
 
 .links{
     text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 
     
 }
@@ -58,6 +54,10 @@ img{
     
     display: block;
     margin: 0 auto;
+    margin-top: -13px;
+    margin-bottom: 21px;
+    border: solid;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
 
 }
 
@@ -66,7 +66,7 @@ figcaption{
     font-style: italic;
     margin-top: 0px;
     text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 
 
 }
@@ -112,13 +112,18 @@ figcaption{
     color: rgb(0, 0, 0);
 }
 
+.center-about{
+    text-align: center; /* This centers the bordered block element horizontally */
+}
+
 .fast_facts{
+    display: inline-block;
     border: 2px solid #000; /* 2px solid black border */
     padding: 13px; /* 20px padding inside the box */
     margin: 20px; /* 20px margin outside the box */
     text-align: center;
-    background-color: #021d3b;
-    color: white;
+    
+    color: rgb(0, 0, 0);
 }
 
 
@@ -228,6 +233,18 @@ figcaption{
     margin: 0 auto;     /* Center block elements horizontally */
 
 }
+
+#animated-text {
+    margin-top: 20px;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 43px;
+    text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    color: #000000;
+}
+
+
 
 
 

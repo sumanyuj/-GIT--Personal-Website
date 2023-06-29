@@ -63,8 +63,9 @@ document.addEventListener('DOMContentLoaded', function() {
 /////
 
 document.addEventListener("DOMContentLoaded", function () {
-    const text = "This text is appearing from thin air...";
     const animatedTextElement = document.getElementById("animated-text");
+    const text = animatedTextElement.textContent;
+    animatedTextElement.textContent = ''; // Clear the original text content
 
     let index = 0;
     const interval = setInterval(() => {
@@ -74,6 +75,7 @@ document.addEventListener("DOMContentLoaded", function () {
         if (index > text.length - 1) {
             clearInterval(interval);
         }
-    }, 100); // 100ms delay between each character
+    }, 60); // 100ms delay between each character
 });
+
 
