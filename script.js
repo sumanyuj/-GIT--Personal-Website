@@ -79,3 +79,27 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
+const box = document.getElementById('box');
+
+        box.addEventListener('mousemove', (e) => {
+            const { offsetX, offsetY, target } = e;
+            const { offsetWidth: width, offsetHeight: height } = target;
+            const xPos = (offsetX / width - 0.5) * 2;
+            const yPos = -(offsetY / height - 0.5) * 2;
+            const rotateX = 15 * yPos;
+            const rotateY = 15 * xPos;
+            box.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
+        });
+
+        box.addEventListener('mouseleave', () => {
+            box.style.transform = 'rotateX(0) rotateY(0)';
+        });
+
+
+
+
+
+
+
+
+

@@ -56,7 +56,7 @@ img{
     margin: 0 auto;
     margin-top: -13px;
     margin-bottom: 21px;
-    border: solid;
+    border: solid #1535d4;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
 
 }
@@ -118,12 +118,13 @@ figcaption{
 
 .fast_facts{
     display: inline-block;
-    border: 2px solid #000; /* 2px solid black border */
+    border: 2px solid #d46b15; /* 2px solid black border */
     padding: 13px; /* 20px padding inside the box */
     margin: 20px; /* 20px margin outside the box */
     text-align: center;
     
     color: rgb(0, 0, 0);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
 }
 
 
@@ -245,7 +246,23 @@ figcaption{
 }
 
 
+.box {
 
-
+    display: inline-block;
+    border: 2px solid #d46b15; /* 2px solid black border */
+    padding: 13px; /* 20px padding inside the box */
+    margin: 20px; /* 20px margin outside the box */
+    text-align: center;
+  
+    
+    border: 2px solid black;
+  
+    
+    
+    transition: transform 0.1s ease-out;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
 
 
