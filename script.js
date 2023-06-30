@@ -124,7 +124,7 @@ function showSlides() {
     slides[slideIndex - 1].style.display = "block";
 
             // Change slide every 5 seconds
-    setTimeout(showSlides, 3000);
+    setTimeout(showSlides, 1000);
         }
 
 showSlides();
