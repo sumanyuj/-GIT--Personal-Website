@@ -266,3 +266,31 @@ figcaption{
 }
 
 
+#slideshow-container {
+    max-width: 580px;
+    position: relative;
+    margin: 0 auto;
+    padding-bottom: 1%;
+  
+    
+
+}
+
+.slide {
+    border: solid #1535d4;
+    display: none;
+    width: 100%;
+    max-width: 580px;
+    height: 400px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+
+    background-size: cover;
+    background-position: center;
+
+    
+
+
+   
+ 
+}

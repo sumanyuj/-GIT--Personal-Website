@@ -78,7 +78,6 @@ document.addEventListener("DOMContentLoaded", function () {
     }, 60); // 100ms delay between each character
 });
 
-
 const box = document.getElementById('box');
 
         box.addEventListener('mousemove', (e) => {
@@ -101,5 +100,31 @@ const box = document.getElementById('box');
 
 
 
+/////
 
+let slideIndex = 0;
 
+function showSlides() {
+
+    let slides = document.getElementsByClassName("slide");
+
+            // Hide all slides
+    for (let i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+
+            // Increment slide index and loop back to the first slide if needed
+    slideIndex++;
+    if (slideIndex > slides.length) {
+
+        slideIndex = 1;
+            }
+
+            // Show the current slide
+    slides[slideIndex - 1].style.display = "block";
+
+            // Change slide every 5 seconds
+    setTimeout(showSlides, 3000);
+        }
+
+showSlides();
