@@ -1,7 +1,4 @@
 
-
-
-
 @font-face {
     font-family: 'DejaVu Serif';
     src: url('/media/sumanyujanapareddy/Samsung USB/[GIT] Personal Website/DejaVuSerif-BoldItalic.ttf') format('truetype');
@@ -15,7 +12,7 @@ html,body{
 
 /* fff1e5*/
 body{
-    background-color: #ffffff;
+    background-color: #000000;
     margin: 0px;
     font-family: 'DejaVu Serif', serif;
 }
@@ -24,273 +21,29 @@ body{
 
 
 
+
 .epic{
-    
     text-align: center;
     font-family: 'DejaVu Serif', serif;
-    font-size: 43px;
+    font-size: calc(100px + 2vw); /* This line ensures the text size adjusts responsively */
     text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.15);
-   
-    
-    
-   
-    
-
-    
+    color: rgb(255, 255, 255);
 }
 
-.links{
-    text-align: center;
-    
 
-    
-}
-img{
 
-   
-    width: 100%;
-    max-width: 580px;
-    height: auto;
-    
-    display: block;
-    margin: 0 auto;
-    margin-top: -13px;
-    margin-bottom: 21px;
-    border: solid #1535d4;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
-
-}
 
 
 figcaption{
+    font-size: 50px;
     font-style: italic;
-    margin-top: 0px;
+    margin-top: 100px;
     text-align: center;
+    color:#ffffff
     
 
 
 }
 
-.month{
-    border: 2px solid #000; /* 2px solid black border */
-    padding: 13px; /* 20px padding inside the box */
-    margin: 20px; /* 20px margin outside the box */
-    text-align: center;
-    background-color: #005bbb;
-    color: white;
-    
-
-}
-
-.summer {
-    border: 2px solid #000; /* 2px solid black border */
-    padding: 13px; /* 20px padding inside the box */
-    margin: 20px; /* 20px margin outside the box */
-    text-align: center;
-    background-color: #002f56;
-    color: white;
-
-}
-
-.year{
-    border: 2px solid #000; /* 2px solid black border */
-    padding: 13px; /* 20px padding inside the box */
-    margin: 20px; /* 20px margin outside the box */
-    text-align: center;
-    background-color: #021d3b;
-    color: white;
 
 
-}
-
-.about_intro{
-    border: 2px solid #000; /* 2px solid black border */
-    padding: 13px; /* 20px padding inside the box */
-    margin: 20px; /* 20px margin outside the box */
-    text-align: center;
-    background-color: #ffffff;
-    color: rgb(0, 0, 0);
-}
-
-.center-about{
-    text-align: center; /* This centers the bordered block element horizontally */
-}
-
-.fast_facts{
-    display: inline-block;
-    border: 2px solid #d46b15; /* 2px solid black border */
-    padding: 13px; /* 20px padding inside the box */
-    margin: 20px; /* 20px margin outside the box */
-    text-align: center;
-    
-    color: rgb(0, 0, 0);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
-}
-
-
-
-
-
-  /* Header/Blog Title */
-  .header {
-    padding: 1px;
-    font-size: 40px;
-    text-align: center;
-    background: #fff1e5;
-  }
-  
-  /* Create two unequal columns that floats next to each other */
-  /* Left column */
-  .leftcolumn {   
-    float: left;
-    width: 75%;
-    text-align: center;
-    margin-left: 10%;
-    
-  }
-  
-
-  
-  /* Fake image */
-  .fakeimg {
-    background-color: #aaa;
-    width: 50%;
-    padding: 30px;
-    margin-left: 20%
-    
-  }
-
-
-
-  
-  /* Add a card effect for articles */
-  .card {
-     background-color: #f2dfce;
-     padding: 20px;
-     margin-top: 20px;
-   
-     
-  
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  /* Footer */
-  .footer {
-    padding: 20px;
-    text-align: center;
-    background: #ddd;
-    margin-top: 20px;
-  }
-  
-  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 800px) {
-    .leftcolumn, .rightcolumn {   
-      width: 100%;
-      padding: 0;
-    }
-  }
-
-
-
-
-
-
-
-
-/* Style for the anchor tag to make it behave like a block */
-.clickable-div {
-    display: block;
-    text-decoration: none;
-}
-
-/* Style for the text color change on hover */
-.hover-text {
-    color: rgb(38, 37, 37); /* Initial color */
-    transition: color 0.3s ease; /* Optional transition effect */
-}
-
-/* Change color on hover */
-.clickable-div:hover .hover-text {
-    color: rgb(86, 86, 86); /* Color when hovered */
-}
-
-
-.blog_body{
-    max-width: 700px; /* Change this to the maximum width you want for your content */
-    margin: 0 auto;   /* This centers the content */
-    padding: 20px;
-    line-height: 1.8;
-    text-align: left;
-}
-
-.centered-pdf {
-    text-align: center; /* Center inline and inline-block elements horizontally */
-    margin: 0 auto;     /* Center block elements horizontally */
-
-}
-
-#animated-text {
-    margin-top: 20px;
-    font-weight: bold;
-    font-style: italic;
-    font-size: 43px;
-    text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.15);
-    text-align: center;
-    color: #000000;
-}
-
-
-.box {
-
-    display: inline-block;
-    border: 2px solid #d46b15; /* 2px solid black border */
-    padding: 13px; /* 20px padding inside the box */
-    margin: 20px; /* 20px margin outside the box */
-    text-align: center;
-  
-    
-    border: 2px solid black;
-  
-    
-    
-    transition: transform 0.1s ease-out;
-    transform-style: preserve-3d;
-    perspective: 1000px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
-}
-
-
-#slideshow-container {
-    max-width: 580px;
-    position: relative;
-    margin: 0 auto;
-    padding-bottom: 1%;
-  
-    
-
-}
-
-.slide {
-    border: solid #1535d4;
-    display: none;
-    width: 100%;
-    max-width: 580px;
-    height: 400px;
-    box-sizing: border-box;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
-
-    background-size: cover;
-    background-position: center;
-
-    
-
-
-   
- 
-}
